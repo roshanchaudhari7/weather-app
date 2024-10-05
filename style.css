@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #4B0082;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+#fetchButton {
+    background-color: white;
+    color: #4B0082;
+    border: none;
+    padding: 12px 70px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#weatherContent {
+    padding: 20px;
+    display: none;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #333333;
+}
+
+#map {
+    width: 80%;
+    height: 300px;
+    border: none;
+    margin: 20px 20px;
+    padding: 30px;
+}
+
+.coord-button {
+    margin-top: 10px;
+    background-color: #390062;
+    color: white;
+    border: 1px solid #3d0168;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.weather-data {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.wetData {
+    background-color: #fff;
+    padding: 20px;
+}
+
+h3 {
+    color: black;
+}
+
+.weather-item {
+    background-color: #4B0082;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.coordinates {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
